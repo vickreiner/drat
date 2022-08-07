@@ -1,3 +1,13 @@
+## Drat usage within the Platypus package
+
+This repository is a fork of the template repository drat by Roman Hornung and Dirk Eddelbuettel.
+Following the vignette here (https://eddelbuettel.github.io/drat/vignettes/dratstepbystep/) it contains tarballs of the packages SeuratWrappers (satijalab/seurat-wrappers), ProjecTILs (carmonalab/ProjecTILs) and monocle3 (cole-trapnell-lab/monocle3)
+Using the Additional_repositories in the DESCRIPION of Platypus, we are able to use these packages within the newest CRAN release of Platypus, even though these packages are not available in any mainstream repository.
+!!! The tarballs in this repo where compiled from the git repos of all packages on 07.08.22 and not updated since. 
+We do not plan to update this repo with new builds of each package regulary. To install any of the three packages, please fetch the newest version on their respective Git repos !!!
+
+Big thanks to Roman Hornung and Dirk Eddelbuettel for making this available as well as to the Satja, Carmona and Trapnell labs! 
+
 
 ## `drat` Repository for easy forking
 
